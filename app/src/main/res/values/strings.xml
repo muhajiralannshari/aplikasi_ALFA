@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PeternakanAyam</string>
+    <string name="title_activity_tambah_data">TambahData</string>
+    <string name="title_activity_penghasilan">Penghasilan</string>
+    <string name="title_activity_recycle_view">RecycleView</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_inventory1">inventory1</string>
+    <string name="title_activity_inventory2">inventory2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_splash_scree">SplashScree</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="fab_description" />
+</resources>

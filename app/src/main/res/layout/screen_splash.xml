@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_background"
+    tools:context=".SplashScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/splash_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/telur_ayam"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALFA egg chicken"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:includeFontPadding="false"
+        app:layout_constraintTop_toBottomOf="@+id/splash_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="260dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="28dp"
+        android:indeterminate="true"
+        android:indeterminateTintMode="@color/primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splash_image" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch148"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch153"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch154"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch155"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch156"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

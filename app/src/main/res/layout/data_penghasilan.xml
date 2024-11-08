@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradien_background"
+    tools:context=".Penghasilan">
+
+    <LinearLayout
+        android:id="@+id/form_container"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corner"
+        android:padding="15dp"
+        android:elevation="46dp">
+
+
+        <EditText
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableEnd="@drawable/tanggal"
+            android:focusable="false"
+            android:inputType="date"
+            android:hint="tanggal"
+            android:onClick="showDatePickerDiaolog"
+            tools:ignore="OnClick"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/penghasilan1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="penghasilan kandang 1"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_margin="10dp"
+            android:id="@+id/penghasilan2"
+            android:hint="penghasilan kandang 2"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_margin="10dp"
+            android:id="@+id/penghasilan3"
+            android:hint="penghasilan kandang 3"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/confirm_button"
+            android:layout_margin="20dp"
+            android:text="confirm"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
